@@ -13,4 +13,4 @@ cd /home/liferay/callisto/lfrgs-parkland-sol/liferay
 ./gradlew clean deploy createDockerfile
 cp LCP.json build/docker
 cd /home/liferay/callisto/lfrgs-parkland-sol/liferay/build/docker
-lcp deploy --project=callisto --environment=dev
+/home/liferay/lcp deploy --project=callisto --environment=dev
