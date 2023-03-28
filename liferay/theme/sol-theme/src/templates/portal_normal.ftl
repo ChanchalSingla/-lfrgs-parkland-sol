@@ -46,7 +46,6 @@
 <@liferay_util["include"] page=body_bottom_include />
 
 <@liferay_util["include"] page=bottom_include />
-<script type="text/javascript" data-senna-track="permanent" src="${javascript_folder}/plugins/jquery-ui.min.js"></script>
 <script type="text/javascript" data-senna-track="permanent" src="${javascript_folder}/plugins/slick.min.js"></script>
 </body>
 
