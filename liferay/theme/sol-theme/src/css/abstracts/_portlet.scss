@@ -1,0 +1,39 @@
+section.portlet {
+    margin-bottom: 0;
+    .portlet-content {
+        .portlet-header {
+            margin: 0;
+            .portlet-title-text {
+                display: none;
+            }
+        }
+    }
+}
+body{
+    position: unset !important;
+    &.has-control-menu{
+        header {
+            position: relative !important;
+        }
+        main{
+            padding-top: 60px;
+        }
+        &.has-edit-mode-menu{
+            .popup-wrap{
+                position: relative;
+    
+                .pcart-wrap{
+                    display: block;
+                }
+            }
+        }
+    }
+}
+.portlet{
+    margin-bottom: unset !important;
+}
+.portlet-decorate .portlet-content{
+    border-width: unset !important;
+    padding: unset !important;
+    background: transparent !important;
+}

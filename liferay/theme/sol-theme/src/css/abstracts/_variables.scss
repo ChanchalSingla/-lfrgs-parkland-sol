@@ -1,0 +1,104 @@
+/* stylesheet var name and default value */
+:root{
+    --primary :#0B5FFF;
+}
+
+/* font family variales */
+$font-Roboto-bold: "roboto-bold";
+$font-calibri-regular: "calibri-regular";
+$font-calibri-bold: "calibri-bold";
+
+/* font size variales */
+$font-size8: 8px;
+$font-size10: 10px;
+$font-size12: 12px;
+$font-size14: 14px;
+$font-size16: 16px;
+$font-size18: 18px;
+$font-size20: 20px;
+$font-size21: 21px;
+$font-size22: 22px;
+$font-size24: 24px;
+$font-size26: 26px;
+$font-size28: 28px;
+$font-size30: 30px;
+$font-size32: 32px;
+$font-size42: 42px;
+$font-size48: 48px;
+$font-size56: 56px;
+$font-size60: 60px;
+$font-size64: 64px;
+$font-size100: 100px;
+
+/* line height variales */
+$line-height-10: 10px;
+$line-height-12: 12px;
+$line-height-14: 14px;
+$line-height-15: 15px;
+$line-height-16: 16px;
+$line-height-17: 17px;
+$line-height-19: 19px;
+$line-height-18: 18px;
+$line-height-20: 20px;
+$line-height-21: 21px;
+$line-height-22: 22px;
+$line-height-23: 23px;
+$line-height-24: 24px;
+$line-height-25: 25px;
+$line-height-26: 26px;
+$line-height-28: 28px;
+$line-height-29: 29px;
+$line-height-32: 32px;
+$line-height-34: 34px;
+$line-height-37: 37px;
+$line-height-39: 39px;
+$line-height-41: 41px;
+$line-height-46: 46px;
+$line-height-47: 47px;
+$line-height-50: 50px;
+$line-height-56: 56px;
+$line-height-65: 65px;
+$line-height-68: 68px;
+
+/* color code varaibles */
+$white: #ffffff;        // --text-white
+$black: #000000;        // --text-black
+$blue: #0077be;
+$lgblue: #dceef1;
+$orange: #f78f1e;       // --text-orange
+$lgpink: #fff1e4;
+$darkpink: #ffe5e5;
+$gray: #c8c8c8;
+$drgray: #7b7b7b;
+$blue-dis: #80bbdf;
+$light-grey: #acacac;
+$lightorg: #fad0a3;     // --bg-lightorg
+$greydim: #d8d8d8;
+$dimblue: #007cc2;      // --bg-warm-blue
+$light-white: #fdffef;
+$blackgrey: #303030;    // --text-black
+$dimgrey: #707070;
+$lightgrey: #757575;
+$green: #27ae60;
+$birghtblue: #2d9cdb;   // --text-blue
+$grey: #727272;
+$light-silver: #d6d7d8;
+$spacegrey: #838383;     // --text-spacegrey
+$darkgrey: #878787;
+$lightishgrey: #dadada;
+$ight-grey: #828282;
+$lightgrey-2: #75757c;
+$lightgrey-3: #838383;
+$lightgrey-4: #5a5a5a;
+$flamingo: #eb5757;
+$red:#ff0000;
+$grey-1:#808080;
+/* ProductDetail */
+$productSlideshowBorder:#f9f6f7;
+$productSlideshowBoxShadow:#7a7a7a33;
+$productImgBlkBackground: #94c6df66;
+$rippleColor:#d3d3d366;
+$rippleColor-2:#65ff7800;
+
+/* stylesheet var used */
+$primaryColor : var(--primary);
