@@ -645,7 +645,7 @@
 .prod-before-login {
     background: #dceef14d;
     border-radius: 8px;
-    margin: 0px 0px 24px 60px;
+    margin: 0px 0px 24px auto;
     padding: 4px 0px;
     max-width: 286px;
 
@@ -681,9 +681,9 @@
 @media screen and (max-width: 1200px) {
 
     /* product-header login css start */
-    .prod-before-login {
-        margin: 0px 0px 24px 41px;
-    }
+    // .prod-before-login {
+    //     margin: 0px 0px 24px 41px;
+    // }
 
     /* product-header login css ends */
 }
