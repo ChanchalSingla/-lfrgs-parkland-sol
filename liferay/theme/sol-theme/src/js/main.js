@@ -111,6 +111,64 @@ AUI().ready(function () {
     }
     ]
   });
+
+  $('.vertical-slide').slick({
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    arrows: false,
+    dots: true,
+    // autoplay:true,
+    vertical: true,
+    verticalSwiping: true,
+    asNavFor: '.horizontal-slider',
+    responsive: [
+        {
+            breakpoint: 1700,
+            settings: "unslick"
+        },
+        {
+            breakpoint: 992,
+            settings: {
+                arrows: false,
+            }
+        }
+    ]
+});
+
+$('.horizontal-slider').slick({
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    arrows: false,
+    dots: true,
+    autoplay: true,
+    vertical: true,
+    verticalSwiping: true,
+    fade: false,
+    asNavFor: '.vertical-slide',
+})
+
+$('.vertical-slide a').on('click', function () {
+    slideIndex = $(this).index();
+    $('.horizontal-slider').slick('slickGoTo', slideIndex);
+});
+
+$('.horizontal-slider').on('beforeChange', function (event, slick, currentSlide, nextSlide) {
+    var slidePos = nextSlide + 1;
+    $('.vertical-slide a').removeClass('active');
+    $('.vertical-slide a:nth-child(' + slidePos + ')').addClass('active');
+
+});
+
+if ($(window).width() < 992) {
+
+    $('.vertical-slide').slick({
+        slidesToShow: 1,
+        vertical: true,
+        verticalSwiping: true,
+        dots: false,
+        arrows: false,
+    });
+}
 });
 
 /*
