@@ -31,6 +31,9 @@
     "failureThreshold": 3
   },
   "publishNotReadyAddressesForCluster": false,
+  "env": {
+    "LCP_WEBSERVER_MODSECURITY": "On"
+  },
   "environments": {
     "infra": {
       "deploy": false
