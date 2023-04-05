@@ -32,7 +32,7 @@
   },
   "publishNotReadyAddressesForCluster": false,
   "env": {
-    "LCP_WEBSERVER_MODSECURITY": "On"
+    "LCP_WEBSERVER_MODSECURITY": "DetectionOnly"
   },
   "environments": {
     "infra": {
