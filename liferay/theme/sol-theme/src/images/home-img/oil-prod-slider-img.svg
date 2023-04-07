@@ -1,0 +1,49 @@
+<svg width="1366" height="728" viewBox="0 0 1366 728" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_7947_67397)">
+<rect width="1560" height="780" transform="translate(-97 -12)" fill="white" fill-opacity="0.09"/>
+<g style="mix-blend-mode:multiply">
+<circle cx="163.5" cy="184.5" r="503.5" fill="url(#paint0_linear_7947_67397)" fill-opacity="0.5"/>
+</g>
+<circle cx="1198" cy="-118" r="257" fill="#F5F4F6" fill-opacity="0.4"/>
+<circle cx="1029" cy="876" r="354" fill="#E6E3E7" fill-opacity="0.3"/>
+<g opacity="0.5">
+<circle cx="122" cy="605" r="3" fill="white"/>
+<circle cx="274" cy="605" r="3" fill="white"/>
+<circle cx="274" cy="647" r="3" fill="white"/>
+<circle cx="312" cy="647" r="3" fill="white"/>
+<circle cx="160" cy="605" r="3" fill="white"/>
+<circle cx="312" cy="605" r="3" fill="white"/>
+<circle cx="198" cy="605" r="3" fill="white"/>
+<circle cx="350" cy="605" r="3" fill="white"/>
+<circle cx="236" cy="605" r="3" fill="white"/>
+<circle cx="388" cy="605" r="3" fill="white"/>
+<circle cx="236" cy="647" r="3" fill="white"/>
+<circle cx="201" cy="647" r="3" fill="white"/>
+</g>
+<g opacity="0.5">
+<circle cx="450" cy="172" r="3" fill="white"/>
+<circle cx="602" cy="172" r="3" fill="white"/>
+<circle cx="602" cy="214" r="3" fill="white"/>
+<circle cx="640" cy="214" r="3" fill="white"/>
+<circle cx="488" cy="172" r="3" fill="white"/>
+<circle cx="640" cy="172" r="3" fill="white"/>
+<circle cx="526" cy="172" r="3" fill="white"/>
+<circle cx="678" cy="172" r="3" fill="white"/>
+<circle cx="564" cy="172" r="3" fill="white"/>
+<circle cx="716" cy="172" r="3" fill="white"/>
+<circle cx="564" cy="214" r="3" fill="white"/>
+<circle cx="529" cy="214" r="3" fill="white"/>
+</g>
+</g>
+<defs>
+<linearGradient id="paint0_linear_7947_67397" x1="-203.5" y1="405" x2="293" y2="419" gradientUnits="userSpaceOnUse">
+<stop offset="0.0175234" stop-color="#DBE3F1"/>
+<stop offset="0.580296" stop-color="#DCE4F1"/>
+<stop offset="0.802083" stop-color="#DEE4F1"/>
+<stop offset="1" stop-color="#E1E5F1"/>
+</linearGradient>
+<clipPath id="clip0_7947_67397">
+<rect width="1560" height="780" fill="white" transform="translate(-97 -12)"/>
+</clipPath>
+</defs>
+</svg>

@@ -434,7 +434,7 @@
     margin-bottom: 26px;
     padding-top: 125px;
 
-    .re-co-btn {
+    /*.re-co-btn {
         display: grid;
         grid-template-columns: 1fr 1fr;
         align-items: center;
@@ -465,7 +465,7 @@
                 // }
             }
         }
-    }
+    }*/
 
     .container {
         .reci-head {
@@ -479,6 +479,15 @@
             }
 
             button {
+                padding: 11px 67px;
+                background: $dimblue;
+                border-radius: 32px;
+                color: $white;
+                margin-top: 34px;
+                font-family: $font-calibri-bold;
+            }
+
+            a {
                 padding: 11px 67px;
                 background: $dimblue;
                 border-radius: 32px;
@@ -576,6 +585,39 @@
 
     .slick-initialized .slick-slide {
         display: flex;
+    }
+}
+
+.recicom-sec-btn .re-co-btn {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    text-align: center;
+    position: relative;
+
+    a {
+        font-family: $font-calibri-bold;
+        font-size: $font-size24;
+        line-height: $line-height-29;
+        color: #ffffff;
+        display: inline-block;
+        padding: 20px 0;
+        background: $dimblue;
+
+        &:first-of-type {
+            border-right: 1px solid #fff;
+
+            // &::after{
+            //     content: "";
+            //     display: block;
+            //     height: 100%;
+            //     width: 2px;
+            //     background-color: red;
+            //     right: 0;
+            //     position: absolute;
+            //     top: 0;
+            // }
+        }
     }
 }
 
@@ -1601,12 +1643,33 @@
 }
 
 @media only screen and (max-width: 767px) {
+    .recicom-sec-btn .re-co-btn {
+        grid-template-columns: 1fr 1fr;
+        position: fixed;
+        bottom: 0;
+        z-index: 11;
+        width: 100%;
+
+        a {
+            font-size: $font-size12;
+            line-height: $line-height-14;
+            padding: 13px 0;
+
+            img {
+                width: 12px;
+                margin-left: 5px;
+            }
+        }
+    } 
+}
+
+@media only screen and (max-width: 767px) {
     .recicom-sec {
         background: none;
         margin-bottom: 26px;
         padding-top: 70px;
 
-        .re-co-btn {
+        /*.re-co-btn {
             grid-template-columns: 1fr 1fr;
             position: fixed;
             bottom: 0;
@@ -1623,7 +1686,7 @@
                     margin-left: 5px;
                 }
             }
-        }
+        }*/
 
         .container {
             .reci-head {
