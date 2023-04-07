@@ -260,36 +260,37 @@ header {
     .mega-menu {
         display: none;
         position: absolute;
-        left: 0;
-        right: 0;
+        left: -195px;
+        // right: 0;
         margin-left: auto;
         margin-right: auto;
-        top: auto;
+        //top: 54px;
         padding-top: 30px;
         width: 100%;
-        max-width: 780px;
+        min-width: 825px;
         background-color: $white;
         border-radius: 0px 0px 24px 24px;
 
         .mega-wrap {
-            padding: 38px 72px;
+            display: flex;
+            padding: 34px 34px 34px 45px;
             column-count: 3;
             background-color: $white;
             border-radius: 0px 0px 24px 24px;
-            box-shadow: 0 7px 9px -3px #0000004d;
-            -moz-box-shadow: 0 7px 9px -3px #0000004d;
-            background: linear-gradient(135deg, #eefcff 0%, #ffffff00 50%),
-                linear-gradient(135deg, #ffffff00 50%, #fff8e3 100%);
+            box-shadow: 0 7px 9px -3px rgb(0 0 0 / 30%);
+            -moz-box-shadow: 0 7px 9px -3px rgba(0, 0, 0, 0.3);
+            background: linear-gradient(135deg, rgba(238, 252, 255, 1) 0%, rgba(255, 255, 255, 0) 50%),
+                linear-gradient(135deg, rgba(255, 255, 255, 0) 50%, rgba(255, 248, 227, 1) 100%);
             background-position: left top, bottom right;
             background-attachment: fixed;
 
             .col {
-                margin-bottom: 20px;
+                margin-bottom: 0px;
                 position: relative;
 
                 &:nth-child(3),
                 &:last-child {
-                    margin-bottom: 52px;
+                    margin-bottom: 0px;
                 }
 
                 img {
@@ -303,9 +304,6 @@ header {
                     line-height: $line-height-24;
                     color: $black;
                     margin-bottom: 12px;
-                    a{
-                        color: $black;
-                    }
                 }
                 ul {
                     list-style: none;
