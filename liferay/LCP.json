@@ -1,6 +1,9 @@
 {
   "kind": "Deployment",
   "id": "liferay",
+  "strategy": {
+        "type": "Recreate"
+    },
   "image": "liferaycloud/liferay-dxp:7.4-5.2.0",
   "memory": 8192,
   "cpu": 8,
