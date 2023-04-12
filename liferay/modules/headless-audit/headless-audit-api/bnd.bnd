@@ -1,0 +1,10 @@
+Bundle-Name: headless-audit-api
+Bundle-SymbolicName: com.sol.petroleum.headless.audit.api
+Bundle-Version: 1.0.0
+Export-Package:\
+	com.sol.petroleum.headless.audit.exception,\
+	com.sol.petroleum.headless.audit.model,\
+	com.sol.petroleum.headless.audit.service,\
+	com.sol.petroleum.headless.audit.service.persistence
+-check: EXPORTS
+-includeresource: META-INF/service.xml=../headless-audit-service/service.xml

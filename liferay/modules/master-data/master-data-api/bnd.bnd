@@ -1,0 +1,10 @@
+Bundle-Name: master-data-api
+Bundle-SymbolicName: com.sol.petroleum.master.data.api
+Bundle-Version: 1.0.0
+Export-Package:\
+	com.sol.petroleum.master.data.exception,\
+	com.sol.petroleum.master.data.model,\
+	com.sol.petroleum.master.data.service,\
+	com.sol.petroleum.master.data.service.persistence
+-check: EXPORTS
+-includeresource: META-INF/service.xml=../master-data-service/service.xml

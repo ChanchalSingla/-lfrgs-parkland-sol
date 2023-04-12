@@ -1,0 +1,11 @@
+dependencies {
+	compile project(":modules:headless-audit:headless-audit-api")
+
+	compileOnly group: "com.liferay.portal", name: "release.dxp.api"
+}
+
+buildService {
+	apiDir = "../headless-audit-api/src/main/java"
+}
+
+group = "com.sol.petroleum.headless.audit"

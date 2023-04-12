@@ -1,0 +1,6 @@
+Bundle-Name: headless-audit-service
+Bundle-SymbolicName: com.sol.petroleum.headless.audit.service
+Bundle-Version: 1.0.0
+Liferay-Require-SchemaVersion: 1.0.0
+Liferay-Service: true
+-dsannotations-options: inherit

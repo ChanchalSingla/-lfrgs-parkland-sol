@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<!DOCTYPE service-builder PUBLIC "-//Liferay//DTD Service Builder 7.4.0//EN" "http://www.liferay.com/dtd/liferay-service-builder_7_4_0.dtd">
+
+<service-builder dependency-injector="ds" package-path="com.sol.petroleum.headless.audit">
+	<namespace>sol_audit</namespace>
+	<!--<entity data-source="sampleDataSource" local-service="true" name="Foo" remote-service="false" session-factory="sampleSessionFactory" table="foo" tx-manager="sampleTransactionManager uuid="true"">-->
+	<entity local-service="true" name="apiAudit" remote-service="true" >
+
+		<!-- PK fields -->
+
+		<column name="auditId" primary="true" type="long" />
+
+		<!-- Other fields -->
+        <column name="UUID" type="String"></column>
+        <column name="createdDate" type="Date"></column>
+        <column name="actionName" type="String"></column>
+        <column name="sourceType" type="String"></column>
+        <column name="status" type="int"></column>
+        <column name="statusCode" type="String"></column>
+        <column name="requestJson" type="String"></column>
+        <column name="responseJson" type="String"></column>
+        <column name="requestTime" type="Date"></column>
+        <column name="responseTime" type="Date"></column>
+
+		<!-- Finder methods -->
+        <finder name="UUID"
+			return-type="apiAudit">
+			<finder-column name="UUID"></finder-column>
+		</finder>
+	</entity>
+</service-builder>

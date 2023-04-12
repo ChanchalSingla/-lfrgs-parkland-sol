@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+
+<model-hints>
+	<model name="com.sol.petroleum.master.data.model.inventory">
+		<field name="masterDataInventoryId" type="long" />
+		<field name="itemNumber" type="String" />
+		<field name="companyId" type="long" />
+		<field name="interId" type="String" />
+		<field name="locationCode" type="String" />
+		<field name="locationDesc" type="String" />
+		<field name="qtyOnOrder" type="Integer" />
+		<field name="qtyBackOrdered" type="Integer" />
+		<field name="qtyDropShipped" type="Integer" />
+		<field name="qtyInUse" type="Integer" />
+		<field name="qtyInService" type="Integer" />
+		<field name="qtyReturned" type="Integer" />
+		<field name="qtyDamaged" type="Integer" />
+		<field name="qtyOnHand" type="Integer" />
+		<field name="qtyAllocated" type="Integer" />
+		<field name="qtyCommitted" type="Integer" />
+		<field name="qtySold" type="Integer" />
+		<field name="inactive" type="Integer" />
+		<field name="createdDate" type="Date" />
+		<field name="modifiedDate" type="Date" />
+	</model>
+	<model name="com.sol.petroleum.master.data.model.item">
+		<field name="masterDataItemId" type="long" />
+		<field name="category" type="String" />
+		<field name="inactive" type="Integer" />
+		<field name="interId" type="String" />
+		<field name="itemNumber" type="String" />
+		<field name="itemTaxSchId" type="String" />
+		<field name="itemType" type="Integer" />
+		<field name="subCategory" type="String" />
+		<field name="taxOptions" type="Integer" />
+		<field name="title" type="String" />
+		<field name="uOfMSchedule" type="String" />
+		<field name="visibility" type="String" />
+		<field name="createdDate" type="Date" />
+		<field name="modifiedDate" type="Date" />
+	</model>
+</model-hints>

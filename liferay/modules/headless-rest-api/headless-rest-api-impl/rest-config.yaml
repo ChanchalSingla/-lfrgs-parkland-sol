@@ -1,0 +1,9 @@
+apiDir: "../headless-rest-api-api/src/main/java"
+apiPackagePath: "com.sol.petroleum.headless.rest.api"
+application:
+    baseURI: "/headless-rest-api"
+    className: "HeadlessRestApiApplication"
+    name: "HeadlessRestApi"
+author: "Chanchal"
+clientDir: "../headless-rest-api-client/src/main/java"
+testDir: "../headless-rest-api-test/src/testIntegration/java"

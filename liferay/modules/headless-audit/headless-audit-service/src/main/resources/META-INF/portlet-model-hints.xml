@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+
+<model-hints>
+	<model name="com.sol.petroleum.headless.audit.model.apiAudit">
+		<field name="auditId" type="long" />
+		<field name="UUID" type="String" />
+		<field name="createdDate" type="Date" />
+		<field name="actionName" type="String" />
+		<field name="sourceType" type="String" />
+		<field name="status" type="int" />
+		<field name="statusCode" type="String" />
+		<field name="requestJson" type="String">
+			<hint-collection name="TEXTAREA" />
+		</field>
+		<field name="responseJson" type="String">
+			<hint-collection name="TEXTAREA" />
+		</field>
+		<field name="requestTime" type="Date" />
+		<field name="responseTime" type="Date" />
+	</model>
+</model-hints>

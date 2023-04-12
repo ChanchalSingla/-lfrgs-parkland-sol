@@ -1,0 +1,6 @@
+Bundle-Name: headless-rest-api-api
+Bundle-SymbolicName: com.sol.petroleum.headless.rest.api.api
+Bundle-Version: 1.0.0
+Export-Package:\
+	com.sol.petroleum.headless.rest.api.dto.v1_0,\
+	com.sol.petroleum.headless.rest.api.resource.v1_0

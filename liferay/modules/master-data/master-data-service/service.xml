@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<!DOCTYPE service-builder PUBLIC "-//Liferay//DTD Service Builder 7.4.0//EN" "http://www.liferay.com/dtd/liferay-service-builder_7_4_0.dtd">
+
+<service-builder dependency-injector="ds" package-path="com.sol.petroleum.master.data">
+	<namespace>sol_master_data</namespace>
+	<!--<entity data-source="sampleDataSource" local-service="true" name="Foo" remote-service="false" session-factory="sampleSessionFactory" table="foo" tx-manager="sampleTransactionManager uuid="true"">-->
+	<entity local-service="true" name="item" remote-service="true" >
+		<column name="masterDataItemId" type="long" primary="true"></column>
+        <column name="category" type="String"></column>
+        <column name="inactive" type="Integer"></column>
+        <column name="interId" type="String"></column>
+        <column name="itemNumber" type="String"></column>
+        <column name="itemTaxSchId" type="String"></column>
+        <column name="itemType" type="Integer"></column>
+        <column name="subCategory" type="String"></column>
+        <column name="taxOptions" type="Integer"></column>
+        <column name="title" type="String"></column>
+        <column name="uOfMSchedule" type="String"></column>
+        <column name="visibility" type="String"></column>
+        <column name="createdDate" type="Date"></column>
+        <column name="modifiedDate" type="Date"></column>
+        
+        	<!-- Finder methods -->
+        <finder name="itemNumber"
+			return-type="item">
+			<finder-column name="itemNumber"></finder-column>
+		</finder>
+	</entity>
+    <entity name="inventory" local-service="true" remote-service="true">
+    	<column name="masterDataInventoryId" type="long" primary="true"></column>
+        <column name="itemNumber" type="String"></column>
+        <column name="companyId" type="long"></column>
+        <column name="interId" type="String"></column>
+        <column name="locationCode" type="String"></column>
+        <column name="locationDesc" type="String"></column>
+        <column name="qtyOnOrder" type="Integer"></column>
+        <column name="qtyBackOrdered" type="Integer"></column>
+        <column name="qtyDropShipped" type="Integer"></column>
+        <column name="qtyInUse" type="Integer"></column>
+        <column name="qtyInService" type="Integer"></column>
+        <column name="qtyReturned" type="Integer"></column>
+        <column name="qtyDamaged" type="Integer"></column>
+        <column name="qtyOnHand" type="Integer"></column>
+        <column name="qtyAllocated" type="Integer"></column>
+        <column name="qtyCommitted" type="Integer"></column>
+        <column name="qtySold" type="Integer"></column>
+        <column name="inactive" type="Integer"></column>
+        <column name="createdDate" type="Date"></column>
+        <column name="modifiedDate" type="Date"></column>
+        
+        
+		<!-- Finder methods -->
+        <finder name="locationCode"
+			return-type="inventory">
+			<finder-column name="locationCode"></finder-column>
+		</finder>
+    </entity>
+</service-builder>
